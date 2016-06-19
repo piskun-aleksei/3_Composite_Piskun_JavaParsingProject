@@ -1,0 +1,30 @@
+logger.log(); 
+import java.util.*; 
+import by.bsuir.boatsandharbor.threads.Boat; 
+import org.apache.log4j.Logger; 
+import java.util.ArrayList; 
+import java.util.Random; 
+import java.util.concurrent.locks.ReentrantLock; 
+package by.bsuir.boatsandharbor.entity; 
+return instance; 
+return -1; 
+return -1; 
+return boats[boatNumber]; 
+return docks.get(index).getCargoWeight(); 
+harborCargoWeight = 0; 
+boats[dockNumber] = null; 
+boatNumber = 1; 
+harborCargoWeight += weight; 
+public class Second{ 
+private int check; 
+public static ReentrantLock[] locks; 
+private static ArrayList<Dock> docks; 
+private static Boat[] boats; 
+private static Integer boatNumber; 
+private static int harborCargoWeight; 
+public class Harbor { 
+docks = new ArrayList<Dock>(); 
+boats = new Boat[NUMBER_OF_DOCKS]; 
+locks = new ReentrantLock[NUMBER_OF_DOCKS]; 
+private static Harbor instance; 
+public static final int NUMBER_OF_DOCKS = 10; 
